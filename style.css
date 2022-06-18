@@ -1,0 +1,16 @@
+.rating {
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+.stars {
+    background: url(/img/star0.png) no-repeat;
+    width: 111px;
+    height: 100px;
+}
+ 
+.stars:hover, .stars:hover ~ .stars {
+    background: url(/img/star1.png) no-repeat;
+    width: 111px;
+    height: 101px;
+}
